@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { TaskContext } from "../hooks/taskContext";
 import Task from "../core/Task";
-import { ActionOnPeding, ActionOnOngoing, ActionOnFinished, EditAction, TasksSorting } from "../components/tableActionsButtons"
+import { ActionOnPeding, ActionOnOngoing, ActionOnFinished, EditAction, TasksSorting } from "../components/TableActionsButtons"
 
 export default function Table() {
 
